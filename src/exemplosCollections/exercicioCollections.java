@@ -11,9 +11,8 @@ public class exercicioCollections {
         while(contador <= 20){
             numeros.add(rd.nextInt(99));
             contador++;
-            System.out.println(numeros);
         }
-
+        System.out.println(numeros);
 
         Map<String, String> paises = new HashMap<>();
         paises.put("Brasil", "Brasilia");
